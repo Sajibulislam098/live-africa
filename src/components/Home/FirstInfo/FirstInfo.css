@@ -1,0 +1,19 @@
+.first-info {
+  background-image: url("https://www.liveafrica.com/sites/all/themes/snowman/assets/img/dotted-trail-bg-right.png"),
+   url("https://www.liveafrica.com/sites/all/themes/snowman/assets/img/zambia-map-bg.png")
+    /* url("https://www.liveafrica.com/sites/all/themes/snowman/assets/img/grunge-top.png"),
+    url("https://www.liveafrica.com/sites/all/themes/snowman/assets/img/grunge-btm.png"); */;
+  background-position-x: 100%, center, center;
+  background-position-y: 100%, center, center;
+  background-size: initial, initial, initial;
+  background-repeat: no-repeat, no-repeat;
+  /* background-repeat-x: no-repeat, no-repeat, no-repeat;
+  background-repeat-y: no-repeat, no-repeat, no-repeat; */
+  background-attachment: initial, initial;
+  background-origin: initial, initial;
+  background-clip: initial, initial;
+  background-color: rgb(242, 242, 241);
+}
+.nameColor{
+    color:chocolate
+}

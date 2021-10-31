@@ -1,0 +1,39 @@
+.book-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.details {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+}
+.book-details {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    /* text-align: justify; */
+}
+.details-div {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+hr {
+    margin: 0;
+    margin-bottom: 25px;
+}
+.tour-details {
+    margin-bottom: 50px;
+}
+.book-img {
+    border-radius: 10px;
+}
+@media only screen and (max-width:575px) {
+    .book-details {
+        font-size: 10px;
+    }
+    .details {
+        font-size: 15px;
+    }
+}

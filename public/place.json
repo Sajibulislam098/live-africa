@@ -1,0 +1,51 @@
+[
+  {
+    "id": "1",
+    "key": 100,
+    "name": "BOTSWANA",
+    "img": "https://www.liveafrica.com/sites/default/files/styles/dest_thumbnail/public/botswana-cover.png?itok=pjHDg6U6",
+    "price": "2500",
+    "description": "Travel to Botswana where fewer tourists, thriving wildlife populations and magnificent and diverse landscapes add up for an incomparable safari experience. On our luxury Botswana safaris, you will explore the varied terrain from"
+  },
+  {
+    "id": "1",
+    "key": 101,
+    "name": "CAPE TOWN & WINELANDS",
+    "img": "https://www.liveafrica.com/sites/default/files/styles/dest_thumbnail/public/cape-cover.png?itok=0s7F4jW3",
+    "price": "2600",
+    "description": "Cape Town and its surrounds are world-class and have regularly been voted Africa's top city to visit and live in. Flying over this scenic city you can see why — it’s natural beauty is breathtaking. Table Mountain is the backdrop of"
+  },
+  {
+    "id": "1",
+    "key": 102,
+    "name": "MADIKWE & KRUGER PARKS",
+    "img": "https://www.liveafrica.com/sites/default/files/styles/dest_thumbnail/public/madikwe-cover.png?itok=h_z47nwF",
+
+    "price": "2900",
+    "description": "These iconic ‘Big 5’ wildlife parks are an essential stop on any safari to South Africa. Explore these incredible reserves from the comfort of some of the most luxurious lodges on the continent in an open 4x4 vehicle with your highly"
+  },
+  {
+    "id": "1",
+    "key": 103,
+    "name": "ZIMBABWE & ZAMBIA",
+    "img": "https://www.liveafrica.com/sites/default/files/styles/dest_thumbnail/public/zambia-cover.png?itok=IhOwyqVA",
+    "price":"3500",
+    "description": "Home to the world-famous Victoria Falls, these countries straddle the Zambezi River and are hidden gem safari destinations. Explore Hwange and Zambezi National Parks in Zimbabwe and South Luangwa and Lower Zambezi Parks"
+  },
+  {
+    "id": "1",
+    "key": 104,
+    "name": "NAMIBIA",
+    "img": "https://www.liveafrica.com/sites/default/files/styles/dest_thumbnail/public/nambia-cover.png?itok=Qede_PMW",
+    "price":"2500",
+    "description": "Namibia is renowned for its wide open spaces, desert elephants and the world’s most spectacular sand dunes. With over 42% of the country protected in national parks and community reserves, the country is often called ‘Africa’s"
+  },
+  {
+    "id": "1",
+    "key": 105,
+    "name": "TANZANIA",
+    "img": "https://www.liveafrica.com/sites/default/files/styles/dest_thumbnail/public/Kenya%20-%20Kenya%20-July%20heading%20north_0.jpg?itok=vxwl_zwu",
+   
+    "price":"3000", "description": "Tanzania is home to three of Africa’s most iconic parks: the Serengeti, Ngorongoro Crater and Mount Kilimanjaro. Our Tanzania safaris are custom crafted to maximize wildlife experiences and create authentic encounters with the local"
+  }
+]

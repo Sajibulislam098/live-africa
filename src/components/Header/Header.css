@@ -1,0 +1,76 @@
+.navBg {
+    background-image: url("https://www.liveafrica.com/sites/all/themes/snowman/assets/img/nav-bg.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: initial;
+  
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    width: 100%;
+    /* top:center; */
+    /* position: relative; */
+    background-size: cover;
+    min-height: 127px;
+  }
+  
+
+/* Header section styles  */
+.logo{
+    padding-right: 200px;
+}
+.nav-link {
+    color: black !important;
+    font-weight: 500;
+}
+.nav-item {
+    display: block;
+    margin: auto;
+}
+.navbar-brand img{
+    width: 70px;
+}
+.user-name {
+    margin: 0;
+    color: black;
+    font-weight: 500;
+    display: inline-block;
+}
+.logout-btn {
+    margin-left: 10px;
+    font-weight: 500;
+}
+.nav-link::after {
+    content: '';
+    display: block;
+    width: 0%;
+    background-color: rgb(204, 67, 17);
+    margin: auto;
+    height: 3px;
+    transition: 0.5s;
+}
+.active-nav {
+    color: rgb(204, 67, 17) !important;
+}
+.active-nav::after{
+    content: '';
+    display: block;
+    background-color: rgb(204, 67, 17);
+    margin: auto;
+    height: 3px;
+}
+.nav-link:hover::after {
+    width: 100%;
+}
+/* .admin-panel-btn {
+    background-color: orangered;
+    color: white;
+    font-weight: 600;
+} */
+.admin-panel-btn:hover {
+    background-color: salmon;
+    color: white;
+    font-weight: 600;
+}

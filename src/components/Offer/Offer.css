@@ -1,0 +1,36 @@
+.duration {
+    color: #f8c63b;
+    font-weight: 600;
+}
+.description {
+    font-size: 15px;
+    font-weight: 300;
+    color: rgb(85, 84, 84);
+}
+.name {
+    font-size: 30px;
+    font-weight: 600;
+}
+.price {
+    font-size: 20px;
+    font-weight: 600;
+}
+.card {
+    padding: 0;
+    margin: 0;
+}
+.card-img-top {
+    height: 200px;
+}
+
+@media only screen and (max-width:575px) {
+    .price, .duration{
+        font-size: 13px;
+    }
+    .name {
+        font-size: 20px;
+    }
+    .book-btn {
+        font-size: 12px;
+    }
+}

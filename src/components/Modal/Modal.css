@@ -1,0 +1,11 @@
+/* Modal styles  */
+.my-back{
+    background-color: orangered !important;
+    color: white;
+    border-radius: 15px;
+    font-weight: 700;
+}
+.modal-header {
+    border-bottom: none;
+    justify-content: center;
+}

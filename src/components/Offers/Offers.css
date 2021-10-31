@@ -1,0 +1,10 @@
+
+.serviceBg{
+    /* background-image: url("https://www.liveafrica.com/sites/all/themes/snowman/assets/img/bg-cheetah.jpg"); */
+    background-image: url( "https://www.liveafrica.com/sites/all/themes/snowman/assets/img/dotted-trail-bg-right.png");
+
+    width: 100%;
+/* background-repeat: no-repeat; */
+/* background-size: cover; */
+/* height: 100vh */
+}
