@@ -8,7 +8,7 @@ const ManageAllOffers = () => {
   useEffect(() => {
     document.title = "Admin Panel | Manage All Offers";
     window.scrollTo(0, 0);
-    fetch("http://localhost:5000/offers")
+    fetch("https://floating-sierra-05085.herokuapp.com/offers")
       .then((res) => res.json())
       .then((data) => {
         setAllOffers(data);
@@ -18,7 +18,7 @@ const ManageAllOffers = () => {
   const deleteOffer = (id) => {
     const x = window.confirm("Do you want to delete this offer?");
     if (x) {
-      fetch(`http://localhost:5000/offers/${id}`, {
+      fetch(`https://floating-sierra-05085.herokuapp.com/offers/${id}`, {
         method: "DELETE",
         headers: {
           "content-type": "application/json",

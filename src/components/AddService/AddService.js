@@ -24,7 +24,7 @@ const AddService = () => {
       description: descriptionRef.current.value,
     
     };
-    fetch("http://localhost:5000/offers", {
+    fetch("https://floating-sierra-05085.herokuapp.com/offers", {
       method: "POST",
       headers: {
         "content-type": "application/json",

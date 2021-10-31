@@ -10,7 +10,7 @@ const MyBookings = () => {
   useEffect(() => {
     document.title = "Travel Guru | My Bookings";
     window.scrollTo(0, 0);
-    fetch(`http://localhost:5000/allBookings/${user.email}`)
+    fetch(`https://floating-sierra-05085.herokuapp.com/allBookings/${user.email}`)
       .then((res) => res.json())
       .then((data) => {
         setOrderData(data);

@@ -11,7 +11,7 @@ const BookOffer = () => {
   useEffect(() => {
     document.title = "Travel Guru | Book Offer";
     window.scrollTo(0, 0);
-    fetch(`http://localhost:5000/offers/${id}`)
+    fetch(`https://floating-sierra-05085.herokuapp.com/offers/${id}`)
       .then((res) => res.json())
       .then((data) => {
         setData(data);

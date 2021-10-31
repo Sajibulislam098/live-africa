@@ -16,7 +16,7 @@ const TableRow = (props) => {
   const handleDelete = () => {
     const x = window.confirm("Do you want to cancel your booking?");
     if (x) {
-      fetch(`http://localhost:5000/booked`, {
+      fetch(`https://floating-sierra-05085.herokuapp.com/booked`, {
         method: "DELETE",
         headers: {
           "content-type": "application/json",
@@ -33,7 +33,7 @@ const TableRow = (props) => {
     if (status === nowStatus) return;
     const x = window.confirm("Do you want to change the status?");
     if (x) {
-      fetch(`http://localhost:5000/booked`, {
+      fetch(`https://floating-sierra-05085.herokuapp.com/booked`, {
         method: "PUT",
         headers: {
           "content-type": "application/json",

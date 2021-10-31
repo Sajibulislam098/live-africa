@@ -12,7 +12,7 @@ const Form = (props) => {
   //   Find if this is already booked
   useEffect(() => {
     fetch(
-      `http://localhost:5000/booked?userEmail=${user.email}&&id=${_id}`
+      `https://floating-sierra-05085.herokuapp.com/booked?userEmail=${user.email}&&id=${_id}`
     )
       .then((res) => res.json())
       .then((data) => setCheckOrder(Boolean(data.res)));
@@ -22,7 +22,7 @@ const Form = (props) => {
     e.preventDefault();
     const phone = phoneRef.current.value;
     const address = addressRef.current.value;
-    fetch("http://localhost:5000/booked", {
+    fetch("https://floating-sierra-05085.herokuapp.com/booked", {
       method: "POST",
       headers: {
         "content-type": "application/json",

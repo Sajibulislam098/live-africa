@@ -17,7 +17,7 @@ const ContactForm = (props) => {
       phone,
       message,
     };
-    fetch('http://localhost:5000/contact',{
+    fetch('https://floating-sierra-05085.herokuapp.com/contact',{
         method:'POST',
         headers: {
             'content-type': 'application/json'
